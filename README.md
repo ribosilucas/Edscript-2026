@@ -1,5 +1,6 @@
 # Edscript-2026
-Desafio do Edscript 2026
+
+
 (function() {
     const DOIS_HORAS_EM_MS = 2 * 60 * 60 * 1000;
     if (!localStorage.getItem('session_start')) localStorage.setItem('session_start', Date.now());
